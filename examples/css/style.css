@@ -1,0 +1,63 @@
+/* Impostare il ont family su tutto il documento */
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+/* # è l'id */
+#main-title {
+  color: green;
+}
+
+/* Tutti i h2 hanno il colore blue */
+h2 {
+  color: blue;
+}
+
+/* Con il . selezioniamo le classi */
+/* Selettore */
+.violet-text {
+  /* proprietà : valore */
+  color: rgb(138, 43, 226);
+  /* Cambiare la dimensione del font */
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+
+  /* Allineamento del testo */
+  text-align: center;
+}
+
+.discount {
+  color: red;
+  text-decoration: line-through;
+}
+
+.banner {
+  /* background-color: lightpink; */
+  background-image: url(../img/cat.jpg);
+  height: 300px;
+  color: white;
+}
+
+.polygon {
+  width: 400px;
+  height: 400px;
+  background-color: lightseagreen;
+} 
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background-color: lightgoldenrodyellow;
+  /* border-color: black;
+  border-width: 3px;
+  border-style: dashed; */
+  border: 4px solid black;
+
+  /* border-top: 3px solid black;
+  border-left: 3px dashed green; */
+}
+
+.heighlight {
+  background-color: yellow;
+}
