@@ -1,3 +1,17 @@
-body {
-  background-color: aquamarine;
+.header {
+  background-color: #d3d3d3;
+  text-align: center;
+  border-bottom: 2px solid #daa520;
+}
+
+.section-title {
+  color: #daa520;
+}
+
+.section-subtitle {
+  font-style: italic;
+}
+
+.footer {
+  border-top: 2px solid #daa520;
 }
